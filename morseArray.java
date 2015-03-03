@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//Hej Johan!
+//Hej Johan! Vad gör du just nu? jag håller på med GitHub!
 public class morseArray {
 		    public static void main(String[]args){
 		        Scanner input = new Scanner(System.in);
