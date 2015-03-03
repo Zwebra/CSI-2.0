@@ -4,7 +4,7 @@ public class CesarCrypt {
 
 	public static void main(String [] args)
 	{	
-
+		//Hej KARL!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 		String sentence;
 
 		Scanner input = new Scanner(System.in);
