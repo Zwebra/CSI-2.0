@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//Hej Johan! Vad gör du just nu? jag håller på med GitHub!
+//Hej Allihopp nu är det barnprogram.
 public class morseArray {
 		    public static void main(String[]args){
 		        Scanner input = new Scanner(System.in);
