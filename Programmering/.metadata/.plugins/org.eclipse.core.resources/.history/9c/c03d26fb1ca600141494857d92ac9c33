@@ -1,0 +1,27 @@
+package labb1;
+import java.util.*;
+public class FileExtension {
+	public static void main(String[]args){
+		Scanner input = new Scanner(System.in);
+		
+		String filename;
+		
+		System.out.println("Ange filnamn:");
+		filename = input.nextLine();
+		
+		getFileType(filename);
+		
+		System.out.println("Filens typ är: \"" + filename + "\".");
+		input.close();	
+
+	}
+	public static String getFileType(String file){
+		String output;
+		int pos1;
+		
+		pos1 = file.lastIndexOf(".");
+		output = file.substring( pos1 );
+		
+		return output;
+	}
+}

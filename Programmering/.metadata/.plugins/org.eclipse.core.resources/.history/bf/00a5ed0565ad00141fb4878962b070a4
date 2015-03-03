@@ -1,0 +1,69 @@
+import java.util.Scanner;
+import java.io.FileNotFoundException;
+import java.io.File;
+
+
+ 	public class Encrypt2
+ 	{
+
+ 		public static void main (String [] arg)
+ 		{
+
+ 			File ordlista = new File ("ordlista_sv_cryptolista.txt");
+ 			Scanner filescan;
+			try {
+				filescan = new Scanner(ordlista);
+				
+
+				while(filescan.hasNextLine()){
+					String text =filescan.nextLine();
+					System.out.println(text);
+				}
+			} catch (FileNotFoundException e) {
+
+				e.printStackTrace();
+			}
+ 			System.out.println (" Write a text to enkrypt");
+ 			
+ 
+ 			
+ 			String crypto =encrypt(text);
+ 			decrypt(crypto);
+
+
+ 			}
+ 			
+ 			public static String encrypt (String karl_text) {
+ 				
+ 				String krypt_text="";
+ 				
+ 				String text = karl_text;
+
+ 	 			for(int i=0;i<text.length();i++){
+
+ 	 				int ascii_ny=(int)text.charAt(i)+1;
+
+ 	 			krypt_text=krypt_text+((char)ascii_ny);
+ 	 			
+ 	 			}
+ 	 				
+ 	 				System.out.println(krypt_text);
+ 	 	 	
+				return krypt_text;
+
+ 			}
+ 			public static String decrypt(String krypt_text){
+ 				
+ 				String text = krypt_text;
+ 				String decrypt ="";
+ 				
+ 				for(int i=0;i<text.length();i++){
+ 					int ascii_ny=(int)text.charAt(i)-1;
+ 					
+ 					decrypt= decrypt + ((char)ascii_ny);
+ 				}
+ 				System.out.println(decrypt);
+ 				return decrypt;
+ 			}
+ 			
+}

@@ -1,0 +1,6 @@
+Compilern är en översättare som läser in högnivå kod och gör om det till maskinkod som är enklare för datorn att förstå. 
+
+instruktions satser (Task commands)
+	input/output, beräkningar
+beslut satser (if else, yesno)
+	satser som låter program välja mellan olika möjliga flöden av instrutioner

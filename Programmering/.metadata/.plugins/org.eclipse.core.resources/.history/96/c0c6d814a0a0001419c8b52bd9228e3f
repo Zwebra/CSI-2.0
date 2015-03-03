@@ -1,0 +1,12 @@
+
+// Filen Variabler.java
+public class Test {
+public static void main (String[] arg) {
+String namn, adress, tel, allt;
+int ålder;
+namn = "Erik Andersson"; adress = "Lilla Gränd 4"; tel = "035-543543";
+ålder= 23;
+allt = namn + "\n" + adress + "\n" + tel + "\n"+ ålder;
+System.out.println(allt);
+}
+}

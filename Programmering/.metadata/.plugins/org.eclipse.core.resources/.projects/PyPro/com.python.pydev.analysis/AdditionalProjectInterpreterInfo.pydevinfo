@@ -1,0 +1,31 @@
+-- VERSION_4
+-- START DISKCACHE
+C:\Users\Zwebra\Dropbox\Skoldokument\Halmstad Högskola\Programmering\.metadata\.plugins\org.eclipse.core.resources\.projects\PyPro\com.python.pydev.analysis\v2_indexcache
+Package.testtest|1424705664147|C:\Users\Zwebra\Dropbox\Skoldokument\Halmstad Högskola\Programmering\PyPro\src\Package\testtest.py
+Package.BMI|1424705653928|C:\Users\Zwebra\Dropbox\Skoldokument\Halmstad Högskola\Programmering\PyPro\src\Package\BMI.py
+PasswordCheck|1424710286867|C:\Users\Zwebra\Dropbox\Skoldokument\Halmstad Högskola\Programmering\PyPro\src\PasswordCheck.py
+Package.Labb1|1424652493459|C:\Users\Zwebra\Dropbox\Skoldokument\Halmstad Högskola\Programmering\PyPro\src\Package\Labb1.py
+Package.__init__|1424640257900|C:\Users\Zwebra\Dropbox\Skoldokument\Halmstad Högskola\Programmering\PyPro\src\Package\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+1=Package.BMI
+2=PasswordCheck
+3=Package.Labb1
+-- END DICTIONARY
+-- START TREE 1
+10
+age|1|age!11@
+bmi|1|bmi!11@
+fat|1|fat!11@
+fem|1|female!11@
+hei|1|height!11@
+man|1|man!11@
+pwd|1|pwd!19@
+sex|1|sex!11@
+wei|1|weight!11@
+x|1|x!27@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

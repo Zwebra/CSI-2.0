@@ -1,0 +1,39 @@
+package uppgifterurboken;
+
+import java.util.Scanner;
+
+
+
+public class Chaptertwothree {
+
+	private static Scanner keyboard;
+
+	public static void main(String[] args) {
+		
+		keyboard = new Scanner(System.in);
+		
+		String name;
+		int age;
+		String collage;
+		String petname;
+		
+		System.out.println("Hello what is your name? ");
+			name = keyboard.nextLine();
+			
+		System.out.println("OH Hello! " + name + " how old are you? ");
+			age = keyboard.nextInt();
+			
+		System.out.println("Ah so you are in collage? Which one?: ");
+			collage = keyboard.nextLine();
+			
+		System.out.println("Do you have a pet? what it's name? ");
+			petname = keyboard.nextLine();
+			
+		System.out.println("So your name is: " + name + " and your age is: " + age + " and you go to: " + collage + "Karland your pets name is: " + petname); 
+				
+			
+		
+
+	}
+
+}

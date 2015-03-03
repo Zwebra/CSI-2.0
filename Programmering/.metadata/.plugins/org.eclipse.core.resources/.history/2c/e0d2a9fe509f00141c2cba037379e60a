@@ -1,0 +1,25 @@
+package uppgifterurboken;
+
+public class Chaptertwo {
+
+	public static void main(String[] args) {
+		
+		
+		//System.out.println ("\"A quote by Abraham Lincoln:\"");
+		
+		//System.out.println ("\"Whatever you are, be a good one.\"");
+		
+		
+		int one;
+		int two;
+		int three;
+		
+		one = 1;
+		two = 2;
+		three = 3;
+		
+		System.out.println(one + two + three / 3);
+		
+	}
+
+}

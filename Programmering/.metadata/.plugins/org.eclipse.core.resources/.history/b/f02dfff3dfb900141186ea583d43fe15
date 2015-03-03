@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Arrays {
+	
+	public static void main(String [] args){
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("Hur många nummer vill du skriva in: ");
+			int aPoster = input.nextInt();
+			
+		int array [] = new int[aPoster];
+		int counter = 0;
+
+		while( aPoster>counter){
+			System.out.println("Ange ditt värde: ");
+			array[counter] = input.nextInt();
+			counter++;			
+		}
+		
+		for(int i = 0; i < array.length;i++){
+		System.out.println(array[i]);
+		}
+		
+		for(int i = aPoster; i < array.length; i++){
+			System.out.println(array[i]);
+		}
+		input.close();
+		
+	}
+
+}

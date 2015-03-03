@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class CesarCrypt {
+
+	public static void main(String [] args){
+		
+		String sentence;
+		
+		Scanner input = new Scanner(System.in);
+		System.out.println("Write the sentence you want to crypt");
+			sentence = input.nextLine();
+			
+		int [] key = new int [6];
+		
+		System.out.println("skriv in din nyckel");
+			String keyInput = input.nextLine();
+			
+		int i = Integer.parseInt(keyInput);
+		
+		System.out.println(keyInput + " " + i);
+		
+	}
+}

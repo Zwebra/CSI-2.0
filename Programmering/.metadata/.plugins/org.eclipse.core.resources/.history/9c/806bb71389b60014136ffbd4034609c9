@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+
+public class CardGame {
+	public static void main(String [] args){
+		Scanner input = new Scanner(System.in);
+		
+		int [] talen = new int [5];
+		
+		talen [0] = 10; talen[1] = 17; talen[3] = 6;
+		
+		for(int i=0; i<talen.length; i++){
+			System.out.println(talen[i]);
+		}
+		
+		System.out.println(talen[0]+ " " + talen[1] + " "+ talen[2] +" " + talen[3]);
+		
+	}
+}

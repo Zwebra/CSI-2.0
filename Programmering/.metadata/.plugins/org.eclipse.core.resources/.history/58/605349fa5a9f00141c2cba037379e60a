@@ -1,0 +1,35 @@
+package uppgifterurboken;
+
+import java.util.Scanner;
+
+
+
+public class Chaptertwothree {
+
+	public static void main(String[] args) {
+		
+		String name;
+		int age;
+		String collage;
+		String pet;
+		
+		System.out.println("Hello what is your name? ");
+			name = new Scanner(System.in).nextLine();
+			
+		System.out.println("OH Hello! " + name + " how old are you? ");
+			age = new Scanner(System.in).nextInt();
+			
+		System.out.println("Ah so you are in collage? Which one?: ");
+			collage = new Scanner(System.in).nextLine();
+			
+		System.out.println("Do you have a pet? what it's name? ");
+			pet = new Scanner(System.in).nextLine();
+			
+		System.out.println("So your name is: " + name + " \nand your age is: " + age + " \nand you go to: " + collage + "\nand your pets name is: " + pet); 
+				
+			
+		
+
+	}
+
+}
