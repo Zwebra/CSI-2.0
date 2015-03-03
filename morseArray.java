@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+//Hej Johan!
 public class morseArray {
 		    public static void main(String[]args){
 		        Scanner input = new Scanner(System.in);
