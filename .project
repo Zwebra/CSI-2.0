@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>CSI-2.0</name>
+	<comment></comment>
+	<projects>
+		<project>forstalektionen</project>
+		<project>labb1</project>
+		<project>Labb2</project>
+		<project>Labb3</project>
+		<project>Labb4</project>
+		<project>Labb5</project>
+		<project>PyPro</project>
+		<project>PythonLabbar</project>
+		<project>PythonProject</project>
+		<project>test</project>
+		<project>testt</project>
+		<project>UML test</project>
+		<project>uppgifterurboken</project>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+</projectDescription>
